@@ -1,0 +1,47 @@
+.footer {
+  display: grid;
+  grid-template-columns: auto 250px auto;
+  height: 175px;
+  align-content: center;
+  background-color: #1e1e1e;
+}
+
+.rights-reserved {
+  padding: 15px 0 55px 0;
+  background-color: #272727;
+}
+
+.reserved-info {
+  font-size: 13px;
+  float: left;
+  margin-left: 30px;
+  color: #666;
+  text-align: left;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #8dc63f;
+}
+
+.small-logo {
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  height: 60px;
+  background-size: cover;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

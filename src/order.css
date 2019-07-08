@@ -1,0 +1,57 @@
+.order-page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  letter-spacing: 1px;
+}
+
+.order-page-right {
+  background-color: #8dc63f;
+  display: flex;
+  color: #333333;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 100px;
+  box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+.order-online-right {
+  background: url(./Chalkboard_Seamless.jpg);
+  color: #8dc63f;
+  font-size: 1.5em;
+  padding: 10px 12px 10px 12px;
+  text-align: center;
+  font-weight: 700;
+  text-align: center;
+  height: 65px;
+  width: 250px;
+  border: none;
+}
+
+.order-page-left {
+  background: url(./Chalkboard_Seamless.jpg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 100px;
+  box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+.order-online-left {
+  background-color: #8dc63f;
+  color: #333333;
+  font-size: 1.5em;
+  padding: 10px 12px 10px 12px;
+  text-align: center;
+  font-weight: 700;
+  text-align: center;
+  height: 65px;
+  width: 250px;
+  border: none;
+}
+h1 {
+  font-size: 2.7em;
+}

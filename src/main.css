@@ -1,0 +1,10 @@
+@import "./navigation.css";
+@import "./homepage.css";
+@import "./footer.css";
+@import "./order.css";
+@import "./catering.css";
+@import "./media-queries.css";
+
+button {
+  cursor: pointer;
+}

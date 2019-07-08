@@ -1,0 +1,52 @@
+.nav-bar {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 240px auto auto;
+
+  height: 120px;
+  width: 100%;
+  align-content: center;
+}
+
+.logo-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  height: 78px;
+
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.right-side {
+  display: inline-flex;
+  color: white;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-items {
+  margin: 8px 8px 8px 8px;
+  color: white;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.order-online-nav {
+  background-color: #8dc63f;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-weight: 700;
+  text-align: center;
+  height: 50px;
+  width: 130px;
+  border: none;
+}
+
+.socials {
+  font-size: 1.3em;
+}

@@ -1,0 +1,108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.para-wrapper {
+  height: 400px;
+}
+.top-picture {
+  background: url(./Zao_Bowls_Broccoli.jpg);
+  height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-letters {
+  background-color: transparent;
+  font-size: 3.5em;
+  color: #8dc63f;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-weight: 900;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.we-deliver {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  height: 170px;
+  justify-content: center;
+}
+
+.deliver-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px 0 0;
+  text-align: center;
+}
+
+.deliver-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0 0 20px;
+  text-align: center;
+}
+
+.delivery-title {
+  display: flex;
+  align-items: center;
+  color: #8dc63f;
+}
+
+h2 {
+  padding: 0 5px 0 5px;
+}
+
+.beginning-catering-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.order-online-catering {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: center;
+  background-color: #8dc63f;
+  border: none;
+}
+
+.catering-email {
+  color: #8dc63f;
+  text-decoration: #8dc63f;
+}
+
+.catering-button {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.catering-body {
+  align-items: center;
+  margin: 0 50px 0 50px;
+}
+
+.email-wrapper {
+  display: inline-block;
+  margin-left: 5px;
+  border: 2px solid #8dc63f;
+}
+
+.catering-incoming {
+  margin-bottom: 50px;
+}
+
+.catering-menu-picture {
+  height: auto;
+  max-width: 100%;
+}
