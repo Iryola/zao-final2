@@ -1,0 +1,10 @@
+.menu-page-wrapper {
+  background: url(./Chalkboard_Seamless.jpg);
+  display: flex;
+  flex-direction: column;
+}
+
+.salad-sauce {
+  display: grid;
+  grid-template-columns: 300px 300px;
+}

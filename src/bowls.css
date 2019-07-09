@@ -1,0 +1,20 @@
+.menu-page-wrapper {
+  background: url(./Chalkboard_Seamless.jpg);
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.bowls-base {
+  display: flex;
+  width: 80%;
+}
+
+.bowls-base img {
+  width: 75%;
+}
+
+.bowls-sauce {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+}

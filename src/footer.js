@@ -62,7 +62,7 @@ class Footer extends Component {
         </div>
         <div className="rights-reserved">
           <h3 className="reserved-info">
-            &copy 2019 Zao Asian Cafe. All rights reserved.
+            &#169; 2019 Zao Asian Cafe. All rights reserved.
           </h3>
         </div>
       </div>

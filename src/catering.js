@@ -32,7 +32,7 @@ export default class Catering extends Component {
         </div>
         <div className="beginning-catering-form">
           <div className="catering-button">
-            <a href="*">
+            <a href="catering-menu-picture">
               <button className="order-online-catering">
                 VIEW CATERING MENU
               </button>

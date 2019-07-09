@@ -1,0 +1,65 @@
+.menu-page-wrapper {
+  background: url(./Chalkboard_Seamless.jpg);
+  /* background-repeat: no-repeat;
+  background-position: center; */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-button-wrapper {
+  margin: 10px 0px 10px 0px;
+}
+
+.top-two-buttons {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  justify-content: center;
+  margin: 30px 0px 30px 0px;
+}
+
+.bottom-three-buttons {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  margin: 30px 0px 30px 0px;
+}
+
+.menu-button {
+  background-color: #8dc63f;
+  font-size: 1.5em;
+  color: #f6f6f6;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-weight: 700;
+  text-align: center;
+  height: 80px;
+  width: 190px;
+  border: none;
+  border-radius: 10px;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: #f6f6f6;
+  height: 150px;
+  justify-content: center;
+  letter-spacing: 5px;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.power-of {
+  font-weight: 900;
+}
+
+.customize-your {
+  font-weight: 500;
+  font-style: italic;
+}
+span {
+  font-weight: 900;
+  font-size: 1.6em;
+}

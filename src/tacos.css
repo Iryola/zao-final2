@@ -1,0 +1,110 @@
+.menu-page-wrapper {
+  background: url(./Chalkboard_Seamless.jpg);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-with-text {
+  margin: 10px 0 10px 0;
+  font-family: "Roboto";
+  color: #8dc63f;
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+.start-with-text a {
+  color: #8dc63f;
+}
+
+.start-with-image {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  color: #f6f6f6;
+  font-size: 1.5em;
+}
+
+.start-with-image img {
+  height: auto;
+  width: 25%;
+}
+
+.line-break {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px groove #707070;
+  width: 80%;
+  margin: 40px 0 40px 0;
+}
+
+.second-line-image {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  color: #f6f6f6;
+  font-size: 1.5em;
+}
+
+.second-line-image img {
+  height: auto;
+  width: 90%;
+}
+
+.second-image-section-wrapper {
+  display: flex;
+
+  width: 90%;
+}
+
+.protein-desc {
+  padding: 5px 0 5px 0;
+  color: rgba(255, 255, 255, 0.53);
+  font-size: 0.7em;
+  font-weight: 500;
+}
+
+.health-conscience {
+  color: #8dc63f;
+  font-size: 0.7em;
+  font-weight: 500;
+}
+
+.third-image-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.third-line-image {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  color: #f6f6f6;
+  font-size: 1.5em;
+}
+
+.third-line-image img {
+  height: auto;
+  width: 90%;
+}
+
+.first-two-toppings {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px;
+  margin: 10px 0 10px 0;
+}
+
+.bottom-toppings {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  margin-bottom: 30px;
+}

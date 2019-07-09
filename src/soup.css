@@ -1,0 +1,10 @@
+.menu-page-wrapper {
+  background: url(./Chalkboard_Seamless.jpg);
+  display: flex;
+  flex-direction: column;
+}
+.soup-corn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -47,7 +47,7 @@ const NavigationContainer = props => {
         {/* </div> */}
         <div className="nav-items">
           <NavLink to="/menu" activeClassName="nav-link-active">
-            MENU <FontAwesomeIcon icon="chevron-down" />
+            MENU
           </NavLink>
         </div>
         <div className="nav-items">
