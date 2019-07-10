@@ -6,7 +6,7 @@ import Locations from "./locations";
 import Menu from "./menu";
 import Tacos from "./tacos";
 import Bowls from "./bowls";
-import Bahnmi from "./bahnmi";
+import Banhmi from "./banhmi";
 import Salads from "./salads";
 import Soup from "./soup";
 import Livezaofully from "./livezaofully";
@@ -41,7 +41,7 @@ export default class App extends Component {
               <Route path="/donations" component={Donations} />
               <Route path="/tacos" component={Tacos} />
               <Route path="/bowls" component={Bowls} />
-              <Route path="/bahnmi" component={Bahnmi} />
+              <Route path="/banhmi" component={Banhmi} />
               <Route path="/salads" component={Salads} />
               <Route path="/soup" component={Soup} />
               <Route path="/take-out" component={Download} />

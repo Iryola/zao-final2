@@ -5,18 +5,6 @@ body {
   font-size: 17px;
 }
 
-.cover-letters-home {
-  background-color: transparent;
-  margin-top: 20px;
-  font-size: 1.5em;
-  color: #8dc63f;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  font-weight: 900;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
 .background-image {
   background: url(./LocationsHeader-Trimmed.jpg);
   height: 650px;

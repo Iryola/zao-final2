@@ -64,49 +64,46 @@ export default class Tacos extends Component {
           <div className="line-break" />
           <div className="start-with-text">SELECT A VEGETABLE</div>
           <div className="third-image-section-wrapper">
-            <div className="first-two-toppings">
-              <div className="third-line-image">
-                <img
-                  src={require("./Carrot.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                CARROT DAIKON
-              </div>
-              <div className="third-line-image">
-                <img
-                  src={require("./Cilantro.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                CILANTRO
-              </div>
+            <div className="third-line-image">
+              <img
+                src={require("./Carrot.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              CARROT DAIKON
             </div>
-            <div className="bottom-toppings">
-              <div className="third-line-image">
-                <img
-                  src={require("./Lettuce.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                LETTUCE MIX
-              </div>
-              <div className="third-line-image">
-                <img
-                  src={require("./Chili-Lime-Aioli.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                CHILI LIME AIOLI
-              </div>
-              <div className="third-line-image">
-                <img
-                  src={require("./KoreanRedBowl.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                KOREAN RED SAUCE
-              </div>
+            <div className="third-line-image">
+              <img
+                src={require("./Cilantro.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              CILANTRO
+            </div>
+
+            <div className="third-line-image">
+              <img
+                src={require("./Lettuce.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              LETTUCE MIX
+            </div>
+            <div className="third-line-image">
+              <img
+                src={require("./Chili-Lime-Aioli.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              CHILI LIME AIOLI
+            </div>
+            <div className="third-line-image">
+              <img
+                src={require("./KoreanRedBowl.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              KOREAN RED SAUCE
             </div>
           </div>
           <div className="start-with-text">

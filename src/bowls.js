@@ -11,7 +11,7 @@ export default class Bowls extends Component {
         <div className="menu-page-wrapper">
           <div className="start-with-text">START WITH A BASE</div>
           <div className="bowls-base">
-            <div className="start-with-image">
+            <div className="start-with-image-bowls">
               <img
                 src={require("./WhiteRice.png")}
                 alt={"logo"}
@@ -19,7 +19,7 @@ export default class Bowls extends Component {
               />
               WHITE RICE
             </div>
-            <div className="start-with-image">
+            <div className="start-with-image-bowls">
               <img
                 src={require("./BrownRice.png")}
                 alt={"logo"}
@@ -27,7 +27,7 @@ export default class Bowls extends Component {
               />
               BROWN RICE
             </div>
-            <div className="start-with-image">
+            <div className="start-with-image-bowls">
               <img
                 src={require("./RiceNoodles.png")}
                 alt={"logo"}
@@ -45,7 +45,7 @@ export default class Bowls extends Component {
                 alt={"logo"}
                 className="logo-image"
               />
-              Natural-Chicken
+              NATURAL CHICKEN
               <div className="protein-desc">seasoned & grilled</div>
               <div className="health-conscience">GF</div>
             </div>
@@ -55,7 +55,7 @@ export default class Bowls extends Component {
                 alt={"logo"}
                 className="logo-image"
               />
-              Steak
+              STEAK
               <div className="protein-desc">spice rubbed & seared</div>
               <div className="health-conscience">GF</div>
             </div>
@@ -65,7 +65,7 @@ export default class Bowls extends Component {
                 alt={"logo"}
                 className="logo-image"
               />
-              Asian-Meatballs
+              MEATBALLS
               <div className="protein-desc">seasoned & grilled</div>
             </div>
             <div className="second-line-image">
@@ -74,33 +74,31 @@ export default class Bowls extends Component {
                 alt={"logo"}
                 className="logo-image"
               />
-              Organic-Tofu
+              ORGANIC TOFU
               <div className="protein-desc">thai spiced</div>
               <div className="health-conscience">GF</div>
             </div>
           </div>
           <div className="line-break" />
           <div className="start-with-text">SELECT A VEGETABLE</div>
-          <div className="third-image-section-wrapper">
-            <div className="first-two-toppings">
-              <div className="third-line-image">
-                <img
-                  src={require("./BroccoliOnions.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                WOK SEARED VEGETABLES
-                <div className="health-conscience">GF</div>
-              </div>
-              <div className="third-line-image">
-                <img
-                  src={require("./SesameCorn.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                CORN
-                <div className="health-conscience">GF</div>
-              </div>
+          <div className="third-image-section-wrapper-bowls">
+            <div className="third-line-image-bowls">
+              <img
+                src={require("./BroccoliOnions.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              WOK SEARED VEGETABLES
+              <div className="health-conscience">GF</div>
+            </div>
+            <div className="third-line-image-bowls">
+              <img
+                src={require("./SesameCorn.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              CORN
+              <div className="health-conscience">GF</div>
             </div>
           </div>
           <div className="line-break" />
@@ -141,8 +139,8 @@ export default class Bowls extends Component {
           </div>
           <div className="line-break" />
           <div className="start-with-text">PICK YOUR TOPPINGS</div>
-          <div className="first-two-toppings">
-            <div className="third-line-image">
+          <div className="third-image-section-wrapper-bowls">
+            <div className="third-line-image-bowls">
               <img
                 src={require("./Carrot.png")}
                 alt={"logo"}
@@ -150,7 +148,7 @@ export default class Bowls extends Component {
               />
               CARROT DAIKON
             </div>
-            <div className="third-line-image">
+            <div className="third-line-image-bowls">
               <img
                 src={require("./Cilantro.png")}
                 alt={"logo"}
@@ -162,7 +160,7 @@ export default class Bowls extends Component {
           <div className="line-break" />
           <div className="start-with-text">PICK YOUR GARNISH</div>
           <div className="bowls-base">
-            <div className="start-with-image">
+            <div className="start-with-image-bowls">
               <img
                 src={require("./Peanuts.png")}
                 alt={"logo"}
@@ -170,7 +168,7 @@ export default class Bowls extends Component {
               />
               PEANUTS
             </div>
-            <div className="start-with-image">
+            <div className="start-with-image-bowls">
               <img
                 src={require("./Crispy-Onions.png")}
                 alt={"logo"}
@@ -178,7 +176,7 @@ export default class Bowls extends Component {
               />
               CRISPY ONIONS
             </div>
-            <div className="start-with-image">
+            <div className="start-with-image-bowls">
               <img
                 src={require("./Chili-Paste.png")}
                 alt={"logo"}

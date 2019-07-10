@@ -69,4 +69,78 @@
   .contact-links {
     margin-bottom: 15px;
   }
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .top-two-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .bottom-three-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  .start-with-image {
+    height: auto;
+    width: 200%;
+  }
+
+  .second-image-section-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .third-image-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .bowls-base {
+    display: flex;
+    flex-direction: column;
+  }
+  .start-with-image-bowls {
+    height: auto;
+    width: 130%;
+  }
+  .third-image-section-wrapper-bowls {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .third-line-image-bowls img {
+    height: auto;
+    width: 75%;
+  }
+  .bowls-sauce {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .first-two-toppings-bowls {
+    display: flex;
+    flex-direction: column;
+  }
+  .salad-sauce {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .start-with-image-salad2 img {
+    height: auto;
+    width: 100%;
+  }
+
+  .start-with-image-soup img {
+    height: auto;
+    width: 100%;
+  }
 }

@@ -10,7 +10,7 @@ export default class Salads extends Component {
         <Menu />
         <div className="menu-page-wrapper">
           <div className="start-with-text">START WITH A BASE</div>
-          <div className="start-with-image">
+          <div className="start-with-image-salad2">
             <img
               src={require("./Lettuce.png")}
               alt={"logo"}
@@ -48,7 +48,7 @@ export default class Salads extends Component {
                 className="logo-image"
               />
               MEATBALLS
-              <div className="protein-desc">hand made with chicken & pork</div>
+              <div className="protein-desc">hand made with chicken</div>
             </div>
             <div className="second-line-image">
               <img
@@ -126,7 +126,7 @@ export default class Salads extends Component {
           <div className="line-break" />
           <div className="start-with-text">PICK YOUR GARNISH</div>
           <div className="bowls-base">
-            <div className="start-with-image">
+            <div className="start-with-image-salad">
               <img
                 src={require("./Peanuts.png")}
                 alt={"logo"}
@@ -134,7 +134,7 @@ export default class Salads extends Component {
               />
               PEANUTS
             </div>
-            <div className="start-with-image">
+            <div className="start-with-image-salad">
               <img
                 src={require("./Crispy-Onions.png")}
                 alt={"logo"}
@@ -142,7 +142,7 @@ export default class Salads extends Component {
               />
               CRISPY ONIONS
             </div>
-            <div className="start-with-image">
+            <div className="start-with-image-salad">
               <img
                 src={require("./Chili-Paste.png")}
                 alt={"logo"}

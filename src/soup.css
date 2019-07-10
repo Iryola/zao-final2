@@ -8,3 +8,16 @@
   justify-content: center;
   align-items: center;
 }
+.start-with-image-soup {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  color: #f6f6f6;
+  font-size: 1.5em;
+}
+
+.start-with-image-soup img {
+  height: auto;
+  width: 35%;
+}

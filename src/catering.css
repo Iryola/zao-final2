@@ -17,14 +17,14 @@
 }
 
 .cover-letters {
-  background-color: transparent;
+  background: url(./Chalkboard_Seamless.jpg);
+  height: 75px;
   font-size: 3.5em;
   color: #8dc63f;
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
   width: 100%;
   font-weight: 900;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .we-deliver {

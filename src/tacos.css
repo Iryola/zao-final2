@@ -8,14 +8,14 @@
 }
 
 .start-with-text {
-  margin: 10px 0 10px 0;
+  margin: 20px 0 20px 0;
   font-family: "Roboto";
   color: #8dc63f;
   font-size: 2.5em;
   font-weight: 100;
 }
 
-.start-with-text a {
+.start-with-text > a {
   color: #8dc63f;
 }
 
@@ -77,8 +77,8 @@
 
 .third-image-section-wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+  width: 90%;
 }
 
 .third-line-image {
@@ -93,18 +93,4 @@
 .third-line-image img {
   height: auto;
   width: 90%;
-}
-
-.first-two-toppings {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 300px 300px;
-  margin: 10px 0 10px 0;
-}
-
-.bottom-toppings {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 300px 300px 300px;
-  margin-bottom: 30px;
 }

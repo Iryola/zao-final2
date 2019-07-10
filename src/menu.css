@@ -1,42 +1,64 @@
 .menu-page-wrapper {
   background: url(./Chalkboard_Seamless.jpg);
-  /* background-repeat: no-repeat;
-  background-position: center; */
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
 }
 
 .menu-button-wrapper {
+  display: flex;
+  flex-direction: column;
   margin: 10px 0px 10px 0px;
 }
 
+.cover-letters-menu {
+  height: 10px;
+  font-size: 2em;
+  color: #8dc63f;
+  /* position: absolute; */
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.cover-letters-menu-items {
+  font-size: 1.3em;
+  color: #8dc63f;
+  /* position: absolute; */
+  /* text-align: center; */
+  /* width: 100%; */
+  font-weight: 400;
+}
+
 .top-two-buttons {
-  display: grid;
-  grid-template-columns: 300px 300px;
+  display: flex;
+  /* height: 200px;
+  max-width: 100%; */
   justify-content: center;
-  margin: 30px 0px 30px 0px;
+  align-items: center;
+  margin: 30px 0px 0px 0px;
+}
+
+.top-two-buttons img {
+  height: auto;
+  width: 320px;
 }
 
 .bottom-three-buttons {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
+  display: flex;
+  /* height: 200px;
+  max-width: 100%; */
   justify-content: center;
-  margin: 30px 0px 30px 0px;
+  align-items: center;
+  margin: 0px 0px 30px 0px;
 }
 
-.menu-button {
-  background-color: #8dc63f;
-  font-size: 1.5em;
-  color: #f6f6f6;
-  padding: 10px 10px 10px 10px;
-  text-align: center;
-  font-weight: 700;
-  text-align: center;
-  height: 80px;
-  width: 190px;
-  border: none;
-  border-radius: 10px;
+.bottom-three-buttons img {
+  height: auto;
+  width: 300px;
 }
 
 .menu-header {

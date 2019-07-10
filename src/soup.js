@@ -10,7 +10,7 @@ export default class Soup extends Component {
         <Menu />
         <div className="menu-page-wrapper">
           <div className="start-with-text">START WITH A BASE</div>
-          <div className="start-with-image">
+          <div className="start-with-image-soup">
             <img
               src={require("./Soup.png")}
               alt={"logo"}
@@ -21,7 +21,7 @@ export default class Soup extends Component {
           <div className="line-break" />
           <div className="start-with-text">ALSO CHOOSE ONE</div>
           <div className="bowls-base">
-            <div className="start-with-image">
+            <div className="start-with-image-bowls">
               <img
                 src={require("./WhiteRice.png")}
                 alt={"logo"}
@@ -29,7 +29,7 @@ export default class Soup extends Component {
               />
               WHITE RICE
             </div>
-            <div className="start-with-image">
+            <div className="start-with-image-bowls">
               <img
                 src={require("./BrownRice.png")}
                 alt={"logo"}
@@ -37,7 +37,7 @@ export default class Soup extends Component {
               />
               BROWN RICE
             </div>
-            <div className="start-with-image">
+            <div className="start-with-image-bowls">
               <img
                 src={require("./RiceNoodles.png")}
                 alt={"logo"}
@@ -91,7 +91,7 @@ export default class Soup extends Component {
           </div>
           <div className="line-break" />
           <div className="start-with-text">SELECT A VEGETABLE</div>
-          <div className="start-with-image">
+          <div className="start-with-image-soup">
             <img
               src={require("./SesameCorn.png")}
               alt={"logo"}

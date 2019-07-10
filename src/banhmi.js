@@ -3,7 +3,7 @@ import Menu from "./menu";
 
 import Pdf from "./ZAO-TakeOutMenu.pdf";
 
-export default class Bahnmi extends Component {
+export default class Banhmi extends Component {
   render() {
     return (
       <div>
@@ -64,49 +64,46 @@ export default class Bahnmi extends Component {
           <div className="line-break" />
           <div className="start-with-text">PICK YOUR TOPPINGS</div>
           <div className="third-image-section-wrapper">
-            <div className="first-two-toppings">
-              <div className="third-line-image">
-                <img
-                  src={require("./Carrot.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                CARROT DAIKON
-              </div>
-              <div className="third-line-image">
-                <img
-                  src={require("./Cilantro.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                CILANTRO
-              </div>
+            <div className="third-line-image">
+              <img
+                src={require("./Carrot.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              CARROT DAIKON
             </div>
-            <div className="bottom-toppings">
-              <div className="third-line-image">
-                <img
-                  src={require("./Cucumber.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                CUCUMBER
-              </div>
-              <div className="third-line-image">
-                <img
-                  src={require("./Chili-Lime-Aioli.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                CHILI LIME AIOLI
-              </div>
-              <div className="third-line-image">
-                <img
-                  src={require("./Hoisin.png")}
-                  alt={"logo"}
-                  className="logo-image"
-                />
-                HOISIN
-              </div>
+            <div className="third-line-image">
+              <img
+                src={require("./Cilantro.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              CILANTRO
+            </div>
+
+            <div className="third-line-image">
+              <img
+                src={require("./Cucumber.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              CUCUMBER
+            </div>
+            <div className="third-line-image">
+              <img
+                src={require("./Chili-Lime-Aioli.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              CHILI LIME AIOLI
+            </div>
+            <div className="third-line-image">
+              <img
+                src={require("./Hoisin.png")}
+                alt={"logo"}
+                className="logo-image"
+              />
+              HOISIN
             </div>
           </div>
           <div className="start-with-text">

@@ -40,11 +40,6 @@ const NavigationContainer = props => {
             <button className="order-online-nav nav-items">Order Online</button>
           </NavLink>
         </div>
-        {/* <div className="nav-items"> */}
-        <NavLink exact to="/" activeClassName="nav-link-active">
-          HOME
-        </NavLink>
-        {/* </div> */}
         <div className="nav-items">
           <NavLink to="/menu" activeClassName="nav-link-active">
             MENU

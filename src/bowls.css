@@ -7,14 +7,48 @@
 
 .bowls-base {
   display: flex;
+  align-items: center;
   width: 80%;
 }
 
-.bowls-base img {
-  width: 75%;
+.bowls-sauce {
+  display: flex;
+  width: 80%;
 }
 
-.bowls-sauce {
-  display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
+.start-with-image-bowls {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  color: #f6f6f6;
+  font-size: 1.5em;
+}
+
+.start-with-image-bowls img {
+  height: auto;
+  width: 80%;
+}
+.third-image-section-wrapper-bowls {
+  display: flex;
+
+  width: 80%;
+}
+
+.third-line-image-bowls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f6f6f6;
+  font-size: 1.5em;
+}
+
+.third-line-image-bowls img {
+  height: auto;
+  width: 60%;
+}
+
+.first-two-toppings-bowls {
+  display: flex;
+  width: 80%;
 }

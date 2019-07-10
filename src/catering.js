@@ -9,7 +9,6 @@ export default class Catering extends Component {
       <div className="catering-page-wrapper">
         <div className="cover-letters">CATERING</div>
         <div className="top-picture" />
-
         <div className="we-deliver">
           <div className="deliver-left">
             <div className="delivery-title">

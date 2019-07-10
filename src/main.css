@@ -3,13 +3,13 @@
 @import "./footer.css";
 @import "./order.css";
 @import "./catering.css";
-@import "./media-queries.css";
 @import "./menu.css";
 @import "./tacos.css";
 @import "./salads.css";
-@import "./bahnmi.css";
+@import "./banhmi.css";
 @import "./bowls.css";
 @import "./soup.css";
+@import "./media-queries.css";
 
 button {
   cursor: pointer;
