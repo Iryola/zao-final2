@@ -13,6 +13,12 @@
   margin: 10px 0px 10px 0px;
 }
 
+.top-two-buttons .menu-button-rice {
+  width: 450px;
+  /* height: auto; */
+  margin: -49px 0 -15px 0;
+}
+
 .cover-letters-menu {
   height: 10px;
   font-size: 2em;
@@ -21,7 +27,7 @@
   text-align: center;
   width: 100%;
   font-weight: 600;
-  padding-bottom: 30px;
+  margin-bottom: 90px;
 }
 
 .cover-letters-menu-items {
@@ -39,12 +45,12 @@
   max-width: 100%; */
   justify-content: center;
   align-items: center;
-  margin: 30px 0px 0px 0px;
+  /* margin: 30px 0px 0px 0px; */
 }
 
 .top-two-buttons img {
   height: auto;
-  width: 320px;
+  width: 350px;
 }
 
 .bottom-three-buttons {
@@ -74,14 +80,13 @@
 }
 
 .power-of {
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .customize-your {
   font-weight: 500;
-  font-style: italic;
 }
 span {
-  font-weight: 900;
+  font-weight: 600;
   font-size: 1.6em;
 }

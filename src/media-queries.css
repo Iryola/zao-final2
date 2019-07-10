@@ -144,3 +144,34 @@
     width: 100%;
   }
 }
+
+@media (max-width: 400px) {
+  .menu-header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #f6f6f6;
+    height: 180px;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  .cover-letters-menu {
+    padding-bottom: 60px;
+  }
+
+  .order-page-right h3 {
+    width: 200px;
+  }
+  .order-page-left h3 {
+    width: 200px;
+  }
+  .start-with-image img {
+    width: 220px;
+  }
+  .start-with-image {
+    width: 220px;
+  }
+}

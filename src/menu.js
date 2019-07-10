@@ -4,6 +4,11 @@ import { NavLink } from "react-router-dom";
 import Pdf from "./ZAO-TakeOutMenu.pdf";
 import logo from "./Chalkboard_Seamless.jpg";
 
+// var element = document.getElementsByClassName("power-of");
+// const handleScroll = () => {
+//   element.scrollIntoView;
+// };
+
 class Menu extends Component {
   render() {
     return (
@@ -12,6 +17,15 @@ class Menu extends Component {
           <div className="menu-button-wrapper">
             <div className="cover-letters-menu">Select one and scroll down</div>
             <div className="top-two-buttons">
+              <NavLink to="/bowls" className="nav-link-active">
+                <img
+                  src={require("./ricebowl5.png")}
+                  alt={"logo"}
+                  className="menu-button-rice"
+                />
+                <div className="cover-letters-menu-items">BOWLS</div>
+              </NavLink>
+
               <NavLink exact to="/tacos" ClassName="nav-link-active">
                 <img
                   src={require("./Tacos.png")}
@@ -19,15 +33,6 @@ class Menu extends Component {
                   className="menu-button"
                 />
                 <div className="cover-letters-menu-items">TACOS</div>
-              </NavLink>
-
-              <NavLink exact to="/bowls" ClassName="nav-link-active">
-                <img
-                  src={require("./newbowl.png")}
-                  alt={"logo"}
-                  className="menu-button"
-                />
-                <div className="cover-letters-menu-items">RICE BOWLS</div>
               </NavLink>
             </div>
 
@@ -59,9 +64,11 @@ class Menu extends Component {
             </div>
           </div>
           <div className="menu-header">
-            <h4 className="power-of">THE POWER OF CHOICE</h4>
+            <h4 className="power-of" id="power-of">
+              the power of choice
+            </h4>
             <h4 className="customize-your">
-              Customize your <span>meal</span> to fit your tastes.
+              customize your <span>MEAL</span> to fit your tastes.
             </h4>
           </div>
         </div>

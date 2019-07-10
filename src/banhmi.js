@@ -48,7 +48,7 @@ export default class Banhmi extends Component {
                 className="logo-image"
               />
               MEATBALLS
-              <div className="protein-desc">seasoned & grilled</div>
+              <div className="protein-desc">hand made with chicken</div>
             </div>
             <div className="second-line-image">
               <img

@@ -45,6 +45,8 @@ export default class App extends Component {
               <Route path="/salads" component={Salads} />
               <Route path="/soup" component={Soup} />
               <Route path="/take-out" component={Download} />
+              <Route path="/#contact" component={Menu} />
+
               <Route component={NoMatch} />
             </Switch>
           </div>
