@@ -3,28 +3,14 @@
   margin: 0px;
   text-align: center;
 }
-.para-wrapper {
-  height: 400px;
-}
-.top-picture {
-  background: url(./Zao_Bowls_Broccoli.jpg);
-  height: 400px;
 
+.top-picture {
+  background: url(./zaocateringpicture2.jpg);
+  height: 600px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: 50% 65%;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.cover-letters {
-  background: url(./Chalkboard_Seamless.jpg);
-  height: 75px;
-  font-size: 3.5em;
-  color: #8dc63f;
-  /* position: absolute; */
-  text-align: center;
-  width: 100%;
-  font-weight: 900;
 }
 
 .we-deliver {
@@ -105,4 +91,43 @@ h2 {
 .catering-menu-picture {
   height: auto;
   max-width: 100%;
+}
+.catering-contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+
+  /* align-content: center; */
+  width: 100%;
+  height: auto;
+  margin: 50px 0 50px 0;
+}
+
+.catering-contacts {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.catering-contacts2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 50px 0 50px 0;
+}
+.catering-contacts3 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.catering-contact {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+}
+
+.catering-contact span a {
+  color: #8dc63f;
+  font-size: 0.8em;
 }

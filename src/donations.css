@@ -1,0 +1,74 @@
+.donations-page-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./Chalkboard_Seamless.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #bbbbbb;
+}
+.donations-page {
+  width: 70%;
+}
+
+.cover-letters-donations {
+  font-size: 2.5em;
+  color: #8dc63f;
+  text-align: center;
+  width: 100%;
+  font-weight: 300;
+  margin: 40px 0 20px 0;
+}
+
+.donations-header {
+  font-style: italic;
+  font-weight: 400;
+  margin: 15px 0 15px 0;
+}
+.donations-body-1 {
+  font-style: italic;
+  font-weight: 400;
+  margin: 15px 0 15px 0;
+}
+.donations-org {
+  color: #8dc63f;
+  font-size: 1em;
+}
+.donations-small-print {
+  font-weight: 400;
+  margin: 15px 0 15px 0;
+}
+.fine-print-underline {
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.donations-body-2 {
+  margin: 15px 0 15px 0;
+}
+.donations-email-body a {
+  color: #8dc63f;
+}
+.sponsorships-and-donations {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 5px 0;
+}
+.sponsorship {
+  width: 50%;
+  margin-bottom: 15px;
+}
+.sponsorships {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.donation {
+  width: 50%;
+  margin-bottom: 15px;
+}
+.donations {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}

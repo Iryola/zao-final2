@@ -10,7 +10,7 @@ export default class Banhmi extends Component {
         <Menu />
         <div className="menu-page-wrapper">
           <div className="start-with-text">START WITH A BASE</div>
-          <div className="start-with-image">
+          <div className="start-with-image-banhmi">
             <img
               src={require("./BanhMiSandwhichBread.png")}
               alt={"logo"}
@@ -107,9 +107,7 @@ export default class Banhmi extends Component {
             </div>
           </div>
           <div className="start-with-text">
-            <a href={Pdf} target="_blank">
-              Download Take Out Menu
-            </a>
+            <a href={Pdf}>Download Take Out Menu</a>
           </div>
         </div>
       </div>

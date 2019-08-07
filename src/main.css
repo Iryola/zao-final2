@@ -9,8 +9,12 @@
 @import "./banhmi.css";
 @import "./bowls.css";
 @import "./soup.css";
+@import "./locations.css";
 @import "./media-queries.css";
-
+@import "./contact.css";
+@import "./donations.css";
+@import "./livezaofully.css";
+@import "./fiveyearanniversary.css";
 button {
   cursor: pointer;
 }

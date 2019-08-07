@@ -107,9 +107,7 @@ export default class Tacos extends Component {
             </div>
           </div>
           <div className="start-with-text">
-            <a href={Pdf} target="_blank">
-              Download Take Out Menu
-            </a>
+            <a href={Pdf}>Download Take Out Menu</a>
           </div>
         </div>
       </div>

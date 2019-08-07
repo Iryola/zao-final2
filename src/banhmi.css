@@ -3,3 +3,17 @@
   display: flex;
   flex-direction: column;
 }
+
+.start-with-image-banhmi {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  color: #f6f6f6;
+  font-size: 1.5em;
+}
+
+.start-with-image-banhmi img {
+  height: auto;
+  width: 25%;
+}

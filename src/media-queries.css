@@ -59,15 +59,23 @@
   }
 
   .top-picture {
-    background: url(./Zao_Bowls_Broccoli.jpg);
-    height: 400px;
+    background: url(./zaocateringpicture2.jpg);
+    height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .catering-image {
+    height: auto;
+    width: 60%;
+  }
   .contact-links {
     margin-bottom: 15px;
+  }
+  .catering-contacts2 {
+    margin: 10px 0 10px 0;
   }
   .menu-button {
     display: flex;
@@ -89,7 +97,21 @@
 
   .start-with-image {
     height: auto;
-    width: 200%;
+    width: 100%;
+  }
+
+  .start-with-image img {
+    height: auto;
+    width: 80%;
+  }
+
+  .start-with-image-banhmi {
+    height: auto;
+    width: 100%;
+  }
+  .start-with-image-banhmi img {
+    height: auto;
+    width: 60%;
   }
 
   .second-image-section-wrapper {
@@ -107,7 +129,7 @@
   }
   .start-with-image-bowls {
     height: auto;
-    width: 130%;
+    width: 100%;
   }
   .third-image-section-wrapper-bowls {
     display: flex;
@@ -143,6 +165,86 @@
     height: auto;
     width: 100%;
   }
+  .catering-contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .catering-contacts {
+    display: flex;
+    flex-direction: column;
+  }
+  .catering-contacts2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .catering-contacts3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .catering-body h1 {
+    font-size: 1.7em;
+  }
+  .top-two-buttons .menu-button-rice {
+    width: 100%;
+  }
+  .top-two-buttons .menu-button img {
+    width: 100%;
+  }
+  .location-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .location-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .phone a {
+    color: #8dc63f;
+    text-align: center;
+  }
+  .reviews a {
+    color: #8dc63f;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .cover-letters-locations {
+    margin-bottom: 40px;
+  }
+  .contact-content {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .contact-image {
+    width: 150%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .email-wrapper-contact {
+    display: inline-block;
+    border: 2px solid #8dc63f;
+    margin-bottom: 20px;
+  }
+  .sponsorships-and-donations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fiveyearpicture {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .fiveyearpicture img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media (max-width: 400px) {
@@ -157,9 +259,14 @@
     font-size: 1.5em;
     width: 100%;
   }
-
+  .menu-button-wrapper {
+    width: 100%;
+  }
   .cover-letters-menu {
     padding-bottom: 60px;
+    width: 80%;
+    text-align: center;
+    padding-left: 30px;
   }
 
   .order-page-right h3 {
@@ -173,5 +280,40 @@
   }
   .start-with-image {
     width: 220px;
+  }
+  .catering-contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .catering-contacts {
+    display: flex;
+    flex-direction: column;
+  }
+  .catering-contacts2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .catering-contacts3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .catering-body h1 {
+    font-size: 1.7em;
+  }
+  .email-wrapper-contact {
+    display: inline-block;
+    border: 2px solid #8dc63f;
+  }
+  .fiveyearpicture {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .fiveyearpicture img {
+    width: 100%;
+    height: 100%;
   }
 }

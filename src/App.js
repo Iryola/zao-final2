@@ -18,6 +18,7 @@ import NoMatch from "./no-match";
 import NavigationContainer from "./navigation-container";
 import Footer from "./footer";
 import Order from "./order";
+import Fiveyearanniversary from "./fiveyearanniversary";
 import { library, icon } from "@fortawesome/fontawesome-svg-core";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 library.add(faChevronDown);
@@ -46,6 +47,10 @@ export default class App extends Component {
               <Route path="/soup" component={Soup} />
               <Route path="/take-out" component={Download} />
               <Route path="/#contact" component={Menu} />
+              <Route
+                path="/fiveyearanniversary"
+                component={Fiveyearanniversary}
+              />
 
               <Route component={NoMatch} />
             </Switch>

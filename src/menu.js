@@ -26,7 +26,7 @@ class Menu extends Component {
                 <div className="cover-letters-menu-items">BOWLS</div>
               </NavLink>
 
-              <NavLink exact to="/tacos" ClassName="nav-link-active">
+              <NavLink exact to="/tacos" activeClassName="nav-link-active">
                 <img
                   src={require("./Tacos.png")}
                   alt={"logo"}

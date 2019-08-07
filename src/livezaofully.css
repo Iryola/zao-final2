@@ -1,0 +1,49 @@
+.livezaofully-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  color: #bbbbbb;
+}
+.livezaofully-top-picture-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  background: url(./zao-stacked-rocks.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.livezaofully-top-text {
+  font-size: 1.7em;
+  /* position: absolute; */
+}
+.livezaofully-bottom-text {
+  font-size: 1em;
+  /* position: absolute; */
+}
+.blog-wrapper {
+  display: flex;
+  margin: 30px 0 30px 0;
+}
+.blog-item {
+  width: 290px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.blog-header {
+  font-size: 1.5em;
+  margin: 10px;
+  color: black;
+}
+.blog-content {
+  color: black;
+  margin: 10px;
+}

@@ -1,0 +1,75 @@
+.cover-letters-locations {
+  height: 10px;
+  font-size: 2em;
+  color: #8dc63f;
+  /* position: absolute; */
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+  margin-bottom: 90px;
+}
+
+.location-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./Chalkboard_Seamless.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.location-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 40px 0 40px 0;
+}
+
+.location-details-wrapper {
+  width: 300px;
+}
+
+.location-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.city {
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0 0 8px 0;
+}
+
+.address {
+  color: #bbbbbb;
+  font-size: 0.9em;
+  margin: 0 0 8px 0;
+}
+
+.phone a {
+  color: #8dc63f;
+  text-align: left;
+}
+
+.hours {
+  color: #bbbbbb;
+  font-size: 0.9em;
+  margin: 8px 0 8px 0;
+}
+
+.reviews a {
+  color: #8dc63f;
+  text-align: left;
+}
+
+.line-break {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px groove #707070;
+  width: 80%;
+  margin: 40px 0 40px 0;
+}

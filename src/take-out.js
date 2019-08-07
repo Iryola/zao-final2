@@ -5,9 +5,7 @@ class Download extends Component {
   render() {
     return (
       <div className="menu-take-out">
-        <a href={Pdf} target="_blank">
-          Download Pdf
-        </a>
+        <a href={Pdf}>Download Pdf</a>
       </div>
     );
   }
