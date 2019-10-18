@@ -7,12 +7,6 @@ export default class Livezaofully extends Component {
       <div>
         <div className="livezaofully-wrapper">
           <div className="livezaofully-top-picture-wrapper">
-            {/* <img
-              src={require("./zao-stacked-rocks.jpg")}
-              alt={"logo"}
-              className="livezaofully-top-picture-wrapper"
-            /> */}
-
             <div className="livezaofully-top-text">LIVE ZAOFULLY</div>
             <div className="livezaofully-bottom-text">
               a place for mindfullness

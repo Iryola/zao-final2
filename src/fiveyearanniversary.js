@@ -30,7 +30,8 @@ export default class Fiveyearanniversary extends Component {
             <div className="anniversary-paragraph">Good Luck! Namaste.</div>
             <div className="anniversary-paragraph">
               <NavLink to="/order" className="nav-link-active-anniversary">
-                Here is our online ordering link start entering today!
+                Here is our online ordering
+                <span className="underline">link</span> start entering today!
               </NavLink>
             </div>
             <div className="anniversary-paragraph terms-conditions">

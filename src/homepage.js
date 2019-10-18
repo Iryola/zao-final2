@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Anniversarybanner from "./anniversarybanner";
 
 export default class Homepage extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class Homepage extends Component {
           We've got something special in store for you,
           <br /> ordering online and catering are still available.
         </div> */}
+        {/* <Anniversarybanner /> */}
         <div className="background-image" />
       </div>
     );

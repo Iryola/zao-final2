@@ -19,6 +19,10 @@
   background-size: cover;
 }
 
+.logo-image-doordashbutton {
+  height: 38px;
+}
+
 a {
   color: white;
   text-decoration: none;

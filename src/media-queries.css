@@ -60,11 +60,13 @@
 
   .top-picture {
     background: url(./zaocateringpicture2.jpg);
-    height: 300px;
+    height: 500px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 50% 65%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 65%;
   }
 
   .catering-image {
@@ -186,10 +188,10 @@
     font-size: 1.7em;
   }
   .top-two-buttons .menu-button-rice {
-    width: 100%;
+    width: 80%;
   }
   .top-two-buttons .menu-button img {
-    width: 100%;
+    width: 80%;
   }
   .location-wrapper {
     display: flex;
@@ -239,10 +241,10 @@
     align-content: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 300px;
   }
   .fiveyearpicture img {
-    width: 100%;
+    width: auto;
     height: 100%;
   }
 }
@@ -267,6 +269,9 @@
     width: 80%;
     text-align: center;
     padding-left: 30px;
+  }
+  .top-two-buttons .menu-button-rice {
+    width: 100%;
   }
 
   .order-page-right h3 {
@@ -310,10 +315,15 @@
     align-content: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 300px;
   }
   .fiveyearpicture img {
-    width: 100%;
+    width: auto;
     height: 100%;
+  }
+  .top-picture {
+    background-attachment: scroll;
+    background-position-x: 50%;
+    background-position-y: 65%;
   }
 }

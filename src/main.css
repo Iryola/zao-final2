@@ -15,6 +15,7 @@
 @import "./donations.css";
 @import "./livezaofully.css";
 @import "./fiveyearanniversary.css";
+@import "./anniversarybanner.css";
 button {
   cursor: pointer;
 }

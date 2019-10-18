@@ -11,6 +11,8 @@
   background-position: 50% 65%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 65%;
 }
 
 .we-deliver {

@@ -153,10 +153,9 @@ export default class Locations extends Component {
                 <a href="tel:801-566-4454">801-566-4454</a>
               </div>
               <div className="location-details hours">
-                Mon-Sat | 11:00am-10:00pm
+                Mon-Sun | 11:00am-9:00pm
               </div>
 
-              <div className="location-details hours">Sun | 11:00am-9:00pm</div>
               <div className="location-details reviews">
                 <a href="https://www.yelp.com/biz/zao-asian-cafe-cottonwood-heights">
                   {" "}

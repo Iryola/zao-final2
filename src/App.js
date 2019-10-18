@@ -19,6 +19,7 @@ import NavigationContainer from "./navigation-container";
 import Footer from "./footer";
 import Order from "./order";
 import Fiveyearanniversary from "./fiveyearanniversary";
+import Anniversarybanner from "./anniversarybanner";
 import { library, icon } from "@fortawesome/fontawesome-svg-core";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 library.add(faChevronDown);

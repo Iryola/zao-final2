@@ -41,6 +41,18 @@ const NavigationContainer = props => {
           </NavLink>
         </div>
         <div className="nav-items">
+          <a
+            href="https://www.doordash.com/store/zao-asian-cafe-cottonwood-heights-130010/"
+            target="_blank"
+          >
+            <img
+              src={require("./doordashbutton.png")}
+              alt={"logo"}
+              className="logo-image-doordashbutton"
+            />
+          </a>
+        </div>
+        <div className="nav-items">
           <NavLink to="/menu" activeClassName="nav-link-active">
             MENU
           </NavLink>
