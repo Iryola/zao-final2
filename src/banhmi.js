@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Menu from "./menu";
 
-import Pdf from "./ZAO-TakeOutMenu.pdf";
+import img from "./ZAO-TakeOutMenu.png";
 
 export default class Banhmi extends Component {
   render() {
@@ -107,7 +107,7 @@ export default class Banhmi extends Component {
             </div>
           </div>
           <div className="start-with-text">
-            <a href={Pdf}>Download Take Out Menu</a>
+            <a href={img}>Download Take Out Menu</a>
           </div>
         </div>
       </div>

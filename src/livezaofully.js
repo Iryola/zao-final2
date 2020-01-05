@@ -12,7 +12,7 @@ export default class Livezaofully extends Component {
               a place for mindfullness
             </div>
           </div>
-          <div className="blog-item-anniversary">
+          {/* <div className="blog-item-anniversary">
             <NavLink to="/fiveyearanniversary" className="nav-link-active">
               <div className="blog-header-anniversary">
                 5 YEAR ANNIVERSARY PROMOTION
@@ -39,13 +39,13 @@ export default class Livezaofully extends Component {
                 </div>
               </div>
             </NavLink>
-          </div>
-          <div className="blog-wrapper">
+          </div> */}
+          {/* <div className="blog-wrapper">
             <div className="blog-item">
               <div className="blog-header" />
               <div className="blog-content" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

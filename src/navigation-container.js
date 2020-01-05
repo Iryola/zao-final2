@@ -44,6 +44,7 @@ const NavigationContainer = props => {
           <a
             href="https://www.doordash.com/store/zao-asian-cafe-cottonwood-heights-130010/"
             target="_blank"
+            className=""
           >
             <img
               src={require("./doordashbutton.png")}

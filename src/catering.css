@@ -122,6 +122,12 @@ h2 {
   width: 100%;
   justify-content: space-around;
 }
+.catering-contacts4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 50px 0 50px 0;
+}
 
 .catering-contact {
   display: flex;

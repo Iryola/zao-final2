@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Pdf from "./ZAO-TakeOutMenu.pdf";
+import img from "./ZAO-TakeOutMenu.png";
 
 class Download extends Component {
   render() {
     return (
       <div className="menu-take-out">
-        <a href={Pdf}>Download Pdf</a>
+        <a href={img}>Download Pdf</a>
       </div>
     );
   }

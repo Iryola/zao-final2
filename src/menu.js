@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 import Pdf from "./ZAO-TakeOutMenu.pdf";
 import logo from "./Chalkboard_Seamless.jpg";
 
@@ -15,9 +16,8 @@ class Menu extends Component {
       <div>
         <div className="menu-page-wrapper">
           <div className="menu-button-wrapper">
-            <div className="cover-letters-menu">Select one and scroll down</div>
             <div className="top-two-buttons">
-              <NavLink to="/bowls" className="nav-link-active">
+              <NavLink smooth to="/bowls#start" className="nav-link-active">
                 <img
                   src={require("./ricebowl5.png")}
                   alt={"logo"}
@@ -26,7 +26,12 @@ class Menu extends Component {
                 <div className="cover-letters-menu-items">BOWLS</div>
               </NavLink>
 
-              <NavLink exact to="/tacos" activeClassName="nav-link-active">
+              <NavLink
+                smooth
+                exact
+                to="/tacos#start"
+                activeClassName="nav-link-active"
+              >
                 <img
                   src={require("./Tacos.png")}
                   alt={"logo"}
@@ -37,7 +42,12 @@ class Menu extends Component {
             </div>
 
             <div className="bottom-three-buttons">
-              <NavLink exact to="/banhmi" activeClassName="nav-link-active">
+              <NavLink
+                smooth
+                exact
+                to="/banhmi#start"
+                activeClassName="nav-link-active"
+              >
                 <img
                   src={require("./BahnMi.png")}
                   alt={"logo"}
@@ -45,7 +55,12 @@ class Menu extends Component {
                 />
                 <div className="cover-letters-menu-items">BANH MI</div>
               </NavLink>
-              <NavLink exact to="/salads" activeClassName="nav-link-active">
+              <NavLink
+                smooth
+                exact
+                to="/salads#start"
+                activeClassName="nav-link-active"
+              >
                 <img
                   src={require("./Salad.png")}
                   alt={"logo"}
@@ -53,7 +68,12 @@ class Menu extends Component {
                 />
                 <div className="cover-letters-menu-items">SALAD</div>
               </NavLink>
-              <NavLink exact to="/soup" activeClassName="nav-link-active">
+              <NavLink
+                smooth
+                exact
+                to="/soup#start"
+                activeClassName="nav-link-active"
+              >
                 <img
                   src={require("./Soup1.png")}
                   alt={"logo"}
@@ -63,7 +83,7 @@ class Menu extends Component {
               </NavLink>
             </div>
           </div>
-          <div className="menu-header">
+          <div className="menu-header" id="start">
             <h4 className="power-of" id="power-of">
               the power of choice
             </h4>

@@ -35,7 +35,6 @@ export default class Catering extends Component {
         <div className="beginning-catering-form">
           <div className="catering-button">
             <a href={img}>
-              Download Take Out Menu
               <button className="order-online-catering">
                 VIEW CATERING MENU
               </button>
@@ -117,6 +116,20 @@ export default class Catering extends Component {
                   DISTRICT
                   <span>
                     <a href="tel:+8013078888">(801)307-8888</a>
+                  </span>
+                </div>
+              </div>
+              <div className="catering-contacts4">
+                <div className="catering-contact">
+                  RIVERDALE
+                  <span>
+                    <a href="tel:8013344218">(801)334-4218</a>
+                  </span>
+                </div>
+                <div className="catering-contact">
+                  FARMINGTON - opening soon
+                  <span>
+                    <a href="tel:8019239200">(801)923-9200</a>
                   </span>
                 </div>
               </div>

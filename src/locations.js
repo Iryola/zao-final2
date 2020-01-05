@@ -8,6 +8,99 @@ export default class Locations extends Component {
           <div className="cover-letters-locations">Our Locations</div>
           <div className="location-wrapper">
             <div className="location-details-wrapper">
+              <div className="location-details city">STATION PARK</div>
+              <div className="location-details opening-soon">
+                coming soon...
+              </div>
+              <div className="location-details address">1026 Park Lane</div>
+              <div className="location-details address">
+                Farmington, UT 84025
+              </div>
+              <div className="location-details phone">
+                <a href="tel:8019239200">801-923-9200</a>
+              </div>
+              <div className="location-details hours">Mon-Sun | TBD</div>
+
+              <div className="location-details reviews">
+                <a href="#">
+                  See our reviews for this location, coming soon...
+                </a>
+              </div>
+            </div>
+
+            <div className="gmap_canvas">
+              <iframe
+                title="riverdale"
+                width="300"
+                height="300"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.8181568084706!2d-111.91186228521751!3d40.98546252877858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752fee1584a13e7%3A0x8464a6b0fc1a544e!2s1026%20Park%20Ln%2C%20Farmington%2C%20UT%2084025!5e0!3m2!1sen!2sus!4v1578168483383!5m2!1sen!2sus"
+                frameBorder="0"
+                scrolling="no"
+                marginHeight="0"
+                marginWidth="0"
+                position="relative"
+                textalign="right"
+                overflow="hidden"
+                background="none!important"
+              />
+            </div>
+          </div>
+
+          <div className="line-break" />
+
+          <div className="location-wrapper">
+            <div className="location-details-wrapper">
+              <div className="location-details city">RIVERDALE</div>
+              <div className="location-details address">
+                831 West Riverdale Road
+              </div>
+              <div className="location-details address">
+                Riverdale, UT 84405
+              </div>
+              <div className="location-details phone">
+                <a href="tel:801-334-4218">801-334-4218</a>
+              </div>
+              <div className="location-details hours">
+                Mon-Thur | 10:30am-9:00pm
+              </div>
+              <div className="location-details hours">
+                Fri | 10:30am-10:00pm
+              </div>
+              <div className="location-details hours">
+                Sat | 11:00am-10:00pm
+              </div>
+              <div className="location-details hours">Sun | 11:00am-8:00pm</div>
+              <div className="location-details reviews">
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-riverdale"
+                  target="_blank"
+                >
+                  See our reviews for this location
+                </a>
+              </div>
+            </div>
+
+            <div className="gmap_canvas">
+              <iframe
+                title="riverdale"
+                width="300"
+                height="300"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000.7299971780551!2d-111.99642197082102!3d41.17991230808229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87530f79343c0ddd%3A0x25ac149d3f51a819!2s831%20W%20Riverdale%20Rd%2C%20Riverdale%2C%20UT%2084405!5e0!3m2!1sen!2sus!4v1571971595590!5m2!1sen!2sus"
+                frameBorder="0"
+                scrolling="no"
+                marginHeight="0"
+                marginWidth="0"
+                position="relative"
+                textalign="right"
+                overflow="hidden"
+                background="none!important"
+              />
+            </div>
+          </div>
+
+          <div className="line-break" />
+          <div className="location-wrapper">
+            <div className="location-details-wrapper">
               <div className="location-details city">SALT LAKE CITY</div>
               <div className="location-details address">
                 400 South 639 East, Suite B
@@ -25,7 +118,10 @@ export default class Locations extends Component {
                 Sunday | 11:00am-9:00pm
               </div>
               <div className="location-details reviews">
-                <a href="https://www.yelp.com/biz/zao-asian-cafe-salt-lake-city-2">
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-salt-lake-city-2"
+                  target="_blank"
+                >
                   See our reviews for this location
                 </a>
               </div>
@@ -62,17 +158,20 @@ export default class Locations extends Component {
                 <a href="tel:801-523-7676">801-523-7676</a>
               </div>
               <div className="location-details hours">
-                Mon-Thu | 11:00am-9:30pm
+                Mon-Thu | 11:00am-9:00pm
               </div>
               <div className="location-details hours">
-                Fri-Sat | 11:00am-10:00pm
+                Fri | 11:00am-10:00pm
               </div>
-
+              <div className="location-details hours">Sat | 11:00am-9:00pm</div>
               <div className="location-details hours">
                 Sunday | 11:00am-8:00pm
               </div>
               <div className="location-details reviews">
-                <a href="https://www.yelp.com/biz/zao-asian-cafe-sandy">
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-sandy"
+                  target="_blank"
+                >
                   See our reviews for this location
                 </a>
               </div>
@@ -114,7 +213,10 @@ export default class Locations extends Component {
                 Sunday | 11:30am-7:00pm
               </div>
               <div className="location-details reviews">
-                <a href="https://www.yelp.com/biz/zao-asian-cafe-murray">
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-murray"
+                  target="_blank"
+                >
                   {" "}
                   See our reviews for this location
                 </a>
@@ -157,7 +259,10 @@ export default class Locations extends Component {
               </div>
 
               <div className="location-details reviews">
-                <a href="https://www.yelp.com/biz/zao-asian-cafe-cottonwood-heights">
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-cottonwood-heights"
+                  target="_blank"
+                >
                   {" "}
                   See our reviews for this location
                 </a>
@@ -194,15 +299,17 @@ export default class Locations extends Component {
                 <a href="tel:801-331-8779">801-331-8779</a>
               </div>
               <div className="location-details hours">
-                Mon-Thu | 11:00am-9:30pm
+                Mon-Thu | 11:00am-9:00pm
               </div>
               <div className="location-details hours">
                 Fri-Sat | 11:00am-10:00pm
               </div>
               <div className="location-details hours">Closed Sunday</div>
               <div className="location-details reviews">
-                <a href="https://www.yelp.com/biz/zao-asian-cafe-lehi-lehi">
-                  {" "}
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-lehi-lehi"
+                  target="_blank"
+                >
                   See our reviews for this location
                 </a>
               </div>
@@ -240,11 +347,17 @@ export default class Locations extends Component {
                 <a href="tel:801-467-4113">801-467-4113</a>
               </div>
               <div className="location-details hours">
-                Mon-Sat | 11:00am-10:00pm
+                Sun-Thurs | 11:00am-9:00pm
               </div>
-              <div className="location-details hours">Sun | 11:00am-9:00pm</div>
+              <div className="location-details hours">
+                {" "}
+                Fri-Sat | 11:00am-10:00pm
+              </div>
               <div className="location-details reviews">
-                <a href="https://www.yelp.com/biz/zao-asian-cafe-salt-lake-city-8?fsid=9ZKj02w8xb5KRJSotekxcA">
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-salt-lake-city-8?fsid=9ZKj02w8xb5KRJSotekxcA"
+                  target="_blank"
+                >
                   {" "}
                   See our reviews for this location
                 </a>
@@ -279,12 +392,16 @@ export default class Locations extends Component {
                 <a href="tel:801-224-0030">801-224-0030</a>
               </div>
               <div className="location-details hours">
-                Mon-Sat | 10:30am-10:00pm
+                Mon-Thurs | 10:30am-9:00pm
               </div>
-
-              <div className="location-details hours">Closed Sunday</div>
+              <div className="location-details hours">
+                Fri-Sat | 10:30am-10:00pm
+              </div>
               <div className="location-details reviews">
-                <a href="https://www.yelp.com/biz/zao-asian-cafe-orem-2?fsid=Dh4Ghta1zUfCBq8CTm7xEw">
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-orem-2?fsid=Dh4Ghta1zUfCBq8CTm7xEw"
+                  target="_blank"
+                >
                   {" "}
                   See our reviews for this location
                 </a>
@@ -323,12 +440,17 @@ export default class Locations extends Component {
                 <a href="tel:801-307-8888">801-307-8888</a>
               </div>
               <div className="location-details hours">
-                Mon-Sat | 11:00am-10:00pm
+                Mon-Thurs | 11:00am-9:00pm
               </div>
 
-              <div className="location-details hours">Closed Sunday</div>
+              <div className="location-details hours">
+                Fri-Sat | 11:00am-10:00pm
+              </div>
               <div className="location-details reviews">
-                <a href="https://www.yelp.com/biz/zao-asian-cafe-south-jordan-2?osq=zao+asian+cafe">
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-south-jordan-2?osq=zao+asian+cafe"
+                  target="_blank"
+                >
                   See our reviews for this location
                 </a>
               </div>
@@ -366,12 +488,16 @@ export default class Locations extends Component {
                 <a href="tel:801-813-0777">801-813-0777</a>
               </div>
               <div className="location-details hours">
-                Mon-Sat | 10:30am-10:00pm
+                Mon-Thurs | 10:30am-9:00pm
               </div>
-
-              <div className="location-details hours">Closed Sunday</div>
+              <div className="location-details hours">
+                Fri-Sat | 10:30am-10:00pm
+              </div>
               <div className="location-details reviews">
-                <a href="https://www.yelp.com/biz/zao-asian-cafe-woods-cross">
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-woods-cross"
+                  target="_blank"
+                >
                   See our reviews for this location
                 </a>
               </div>

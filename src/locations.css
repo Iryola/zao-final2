@@ -54,6 +54,13 @@
   text-align: left;
 }
 
+.opening-soon {
+  color: #8dc63f;
+  font-size: 1.2em;
+  text-align: left;
+  margin: 8px 0 8px 0;
+}
+
 .hours {
   color: #bbbbbb;
   font-size: 0.9em;
