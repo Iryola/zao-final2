@@ -9,9 +9,7 @@ export default class Locations extends Component {
           <div className="location-wrapper">
             <div className="location-details-wrapper">
               <div className="location-details city">STATION PARK</div>
-              <div className="location-details opening-soon">
-                coming soon...
-              </div>
+              <div className="location-details opening-soon">NOW OPEN</div>
               <div className="location-details address">1026 Park Lane</div>
               <div className="location-details address">
                 Farmington, UT 84025
@@ -19,8 +17,13 @@ export default class Locations extends Component {
               <div className="location-details phone">
                 <a href="tel:8019239200">801-923-9200</a>
               </div>
-              <div className="location-details hours">Mon-Sun | TBD</div>
-
+              <div className="location-details hours">
+                Mon-Thurs | 11:00am-9:00pm
+              </div>
+              <div className="location-details hours">
+                Fri-Sat | 11:00am-10:00pm
+              </div>
+              <div className="location-details hours">Sun | 11:00am-8:00pm</div>
               <div className="location-details reviews">
                 <a href="#">
                   See our reviews for this location, coming soon...
