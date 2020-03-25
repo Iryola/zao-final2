@@ -127,7 +127,7 @@ export default class Catering extends Component {
                   </span>
                 </div>
                 <div className="catering-contact">
-                  FARMINGTON - opening soon
+                  FARMINGTON
                   <span>
                     <a href="tel:8019239200">(801)923-9200</a>
                   </span>

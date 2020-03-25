@@ -2,6 +2,7 @@
   background: url(./Chalkboard_Seamless.jpg);
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 
 .start-with-image-banhmi {

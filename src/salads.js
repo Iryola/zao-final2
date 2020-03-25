@@ -151,9 +151,9 @@ export default class Salads extends Component {
               CHILI PASTE
             </div>
           </div>
-          <div className="start-with-text">
+          {/* <div className="start-with-text">
             <a href={img}>Download Take Out Menu</a>
-          </div>
+          </div> */}
         </div>
       </div>
     );

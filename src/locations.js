@@ -1,15 +1,138 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
+import { NavHashLink as NavLink2 } from "react-router-hash-link";
 
 export default class Locations extends Component {
   render() {
     return (
       <div>
         <div className="location-page-wrapper">
-          <div className="cover-letters-locations">Our Locations</div>
+          <div id="farmington" className="cover-letters-locations">
+            Our Locations
+          </div>
+          <div className="coronavirus">
+            {/* <div>No-contact home delivery by Zao</div>
+            <div>$3 delivery fee for delivery up to 10 meals</div>
+            <div>
+              Call your nearest zao for availability and to place your order
+            </div>
+            <p>
+              *See the{" "}
+              <NavLink
+                to="/menu"
+                activeClassName="nav-link-active"
+                style={{ color: "#8dc63f" }}
+              >
+                MENU
+              </NavLink>
+              &nbsp;to get your order together
+            </p> */}
+            <div className="quick-locations">
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#farmington"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;Farmington
+                </NavLink2>
+              </p>
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#riverdale"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;Riverdale
+                </NavLink2>
+              </p>
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#saltlakecity"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;Salt Lake City
+                </NavLink2>
+              </p>
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#sandy"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;Sandy
+                </NavLink2>
+              </p>
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#murray"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;Murray
+                </NavLink2>
+              </p>
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#fortunion"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;Fort Union
+                </NavLink2>
+              </p>
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#lehi"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;Lehi
+                </NavLink2>
+              </p>
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#sugarhouse"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;Sugarhouse
+                </NavLink2>
+              </p>
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#orem"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;Orem
+                </NavLink2>
+              </p>
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#thedistrict"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;The District
+                </NavLink2>
+              </p>
+              <p>
+                <NavLink2
+                  smooth
+                  to="/locations#bountiful"
+                  style={{ color: "#8dc63f" }}
+                >
+                  &#183;Bountiful
+                </NavLink2>
+              </p>
+            </div>
+          </div>
+
           <div className="location-wrapper">
             <div className="location-details-wrapper">
               <div className="location-details city">STATION PARK</div>
-              <div className="location-details opening-soon">NOW OPEN</div>
               <div className="location-details address">1026 Park Lane</div>
               <div className="location-details address">
                 Farmington, UT 84025
@@ -18,15 +141,19 @@ export default class Locations extends Component {
                 <a href="tel:8019239200">801-923-9200</a>
               </div>
               <div className="location-details hours">
-                Mon-Thurs | 11:00am-9:00pm
+                {/* Mon-Thurs | 11:00am-9:00pm */}
+                Call For Store Hours
               </div>
-              <div className="location-details hours">
+              {/* <div className="location-details hours">
                 Fri-Sat | 11:00am-10:00pm
               </div>
-              <div className="location-details hours">Sun | 11:00am-8:00pm</div>
+              <div className="location-details hours">Sun | 11:00am-8:00pm</div> */}
               <div className="location-details reviews">
-                <a href="#">
-                  See our reviews for this location, coming soon...
+                <a
+                  href="https://www.yelp.com/biz/zao-asian-cafe-farmington"
+                  target="_blank"
+                >
+                  See our reviews for this location
                 </a>
               </div>
             </div>
@@ -49,7 +176,7 @@ export default class Locations extends Component {
             </div>
           </div>
 
-          <div className="line-break" />
+          <div id="riverdale" className="line-break" />
 
           <div className="location-wrapper">
             <div className="location-details-wrapper">
@@ -64,15 +191,17 @@ export default class Locations extends Component {
                 <a href="tel:801-334-4218">801-334-4218</a>
               </div>
               <div className="location-details hours">
-                Mon-Thur | 10:30am-9:00pm
+                {/* Mon-Thur | 10:30am-9:00pm */}
+                Call For Store Hours
               </div>
-              <div className="location-details hours">
+              {/* <div className="location-details hours">
                 Fri | 10:30am-10:00pm
               </div>
               <div className="location-details hours">
                 Sat | 11:00am-10:00pm
-              </div>
+              </div> 
               <div className="location-details hours">Sun | 11:00am-8:00pm</div>
+              */}
               <div className="location-details reviews">
                 <a
                   href="https://www.yelp.com/biz/zao-asian-cafe-riverdale"
@@ -101,7 +230,7 @@ export default class Locations extends Component {
             </div>
           </div>
 
-          <div className="line-break" />
+          <div id="saltlakecity" className="line-break" />
           <div className="location-wrapper">
             <div className="location-details-wrapper">
               <div className="location-details city">SALT LAKE CITY</div>
@@ -115,11 +244,12 @@ export default class Locations extends Component {
                 <a href="tel:801-595-1234">801-595-1234</a>
               </div>
               <div className="location-details hours">
-                Mon-Sat | 10:30am-10:00pm
+                {/* Mon-Sat | 10:30am-10:00pm */}
+                Call For Store Hours
               </div>
-              <div className="location-details hours">
+              {/* <div className="location-details hours">
                 Sunday | 11:00am-9:00pm
-              </div>
+              </div> */}
               <div className="location-details reviews">
                 <a
                   href="https://www.yelp.com/biz/zao-asian-cafe-salt-lake-city-2"
@@ -148,7 +278,7 @@ export default class Locations extends Component {
             </div>
           </div>
 
-          <div className="line-break" />
+          <div id="sandy" className="line-break" />
 
           <div className="location-wrapper">
             <div className="location-details-wrapper">
@@ -161,15 +291,16 @@ export default class Locations extends Component {
                 <a href="tel:801-523-7676">801-523-7676</a>
               </div>
               <div className="location-details hours">
-                Mon-Thu | 11:00am-9:00pm
+                {/* Mon-Thu | 11:00am-9:00pm */}
+                Call For Store Hours
               </div>
-              <div className="location-details hours">
+              {/* <div className="location-details hours">
                 Fri | 11:00am-10:00pm
               </div>
               <div className="location-details hours">Sat | 11:00am-9:00pm</div>
               <div className="location-details hours">
                 Sunday | 11:00am-8:00pm
-              </div>
+              </div> */}
               <div className="location-details reviews">
                 <a
                   href="https://www.yelp.com/biz/zao-asian-cafe-sandy"
@@ -197,7 +328,7 @@ export default class Locations extends Component {
               />
             </div>
           </div>
-          <div className="line-break" />
+          <div id="murray" className="line-break" />
 
           <div className="location-wrapper">
             <div className="location-details-wrapper">
@@ -210,11 +341,12 @@ export default class Locations extends Component {
                 <a href="tel:801-290-2797">801-290-2797</a>
               </div>
               <div className="location-details hours">
-                Mon-Sat | 11:00am-9:00pm
+                {/* Mon-Sat | 11:00am-9:00pm */}
+                Call For Store Hours
               </div>
-              <div className="location-details hours">
+              {/* <div className="location-details hours">
                 Sunday | 11:30am-7:00pm
-              </div>
+              </div> */}
               <div className="location-details reviews">
                 <a
                   href="https://www.yelp.com/biz/zao-asian-cafe-murray"
@@ -243,7 +375,7 @@ export default class Locations extends Component {
               />
             </div>
           </div>
-          <div className="line-break" />
+          <div id="fortunion" className="line-break" />
 
           <div className="location-wrapper">
             <div className="location-details-wrapper">
@@ -258,7 +390,8 @@ export default class Locations extends Component {
                 <a href="tel:801-566-4454">801-566-4454</a>
               </div>
               <div className="location-details hours">
-                Mon-Sun | 11:00am-9:00pm
+                {/* Mon-Sun | 11:00am-9:00pm */}
+                Call For Store Hours
               </div>
 
               <div className="location-details reviews">
@@ -289,7 +422,7 @@ export default class Locations extends Component {
               />
             </div>
           </div>
-          <div className="line-break" />
+          <div id="lehi" className="line-break" />
 
           <div className="location-wrapper">
             <div className="location-details-wrapper">
@@ -302,12 +435,13 @@ export default class Locations extends Component {
                 <a href="tel:801-331-8779">801-331-8779</a>
               </div>
               <div className="location-details hours">
-                Mon-Thu | 11:00am-9:00pm
+                {/* Mon-Thu | 11:00am-9:00pm */}
+                Call For Store Hours
               </div>
-              <div className="location-details hours">
+              {/* <div className="location-details hours">
                 Fri-Sat | 11:00am-10:00pm
-              </div>
-              <div className="location-details hours">Closed Sunday</div>
+              </div> */}
+              {/* <div className="location-details hours">Closed Sunday</div> */}
               <div className="location-details reviews">
                 <a
                   href="https://www.yelp.com/biz/zao-asian-cafe-lehi-lehi"
@@ -335,7 +469,7 @@ export default class Locations extends Component {
               />
             </div>
           </div>
-          <div className="line-break" />
+          <div id="sugarhouse" className="line-break" />
 
           <div className="location-wrapper">
             <div className="location-details-wrapper">
@@ -350,12 +484,13 @@ export default class Locations extends Component {
                 <a href="tel:801-467-4113">801-467-4113</a>
               </div>
               <div className="location-details hours">
-                Sun-Thurs | 11:00am-9:00pm
+                {/* Sun-Thurs | 11:00am-9:00pm */}
+                Call For Store Hours
               </div>
-              <div className="location-details hours">
-                {" "}
+              {/* <div className="location-details hours">                
                 Fri-Sat | 11:00am-10:00pm
-              </div>
+              </div> */}
+              {/* <div className="location-details hours">Closed Sunday</div> */}
               <div className="location-details reviews">
                 <a
                   href="https://www.yelp.com/biz/zao-asian-cafe-salt-lake-city-8?fsid=9ZKj02w8xb5KRJSotekxcA"
@@ -384,7 +519,7 @@ export default class Locations extends Component {
               />
             </div>
           </div>
-          <div className="line-break" />
+          <div id="orem" className="line-break" />
 
           <div className="location-wrapper">
             <div className="location-details-wrapper">
@@ -395,11 +530,13 @@ export default class Locations extends Component {
                 <a href="tel:801-224-0030">801-224-0030</a>
               </div>
               <div className="location-details hours">
-                Mon-Thurs | 10:30am-9:00pm
+                {/* Mon-Thurs | 10:30am-9:00pm */}
+                Call For Store Hours
               </div>
-              <div className="location-details hours">
+              {/* <div className="location-details hours">
                 Fri-Sat | 10:30am-10:00pm
-              </div>
+              </div> */}
+              {/* <div className="location-details hours">Closed Sunday</div> */}
               <div className="location-details reviews">
                 <a
                   href="https://www.yelp.com/biz/zao-asian-cafe-orem-2?fsid=Dh4Ghta1zUfCBq8CTm7xEw"
@@ -428,7 +565,7 @@ export default class Locations extends Component {
               />
             </div>
           </div>
-          <div className="line-break" />
+          <div id="thedistrict" className="line-break" />
 
           <div className="location-wrapper">
             <div className="location-details-wrapper">
@@ -443,12 +580,14 @@ export default class Locations extends Component {
                 <a href="tel:801-307-8888">801-307-8888</a>
               </div>
               <div className="location-details hours">
-                Mon-Thurs | 11:00am-9:00pm
+                {/* Mon-Thurs | 11:00am-9:00pm */}
+                Call For Store Hours
               </div>
 
-              <div className="location-details hours">
+              {/* <div className="location-details hours">
                 Fri-Sat | 11:00am-10:00pm
-              </div>
+              </div> */}
+              {/* <div className="location-details hours">Closed Sunday</div> */}
               <div className="location-details reviews">
                 <a
                   href="https://www.yelp.com/biz/zao-asian-cafe-south-jordan-2?osq=zao+asian+cafe"
@@ -476,7 +615,7 @@ export default class Locations extends Component {
               />
             </div>
           </div>
-          <div className="line-break" />
+          <div id="bountiful" className="line-break" />
 
           <div className="location-wrapper">
             <div className="location-details-wrapper">
@@ -491,11 +630,13 @@ export default class Locations extends Component {
                 <a href="tel:801-813-0777">801-813-0777</a>
               </div>
               <div className="location-details hours">
-                Mon-Thurs | 10:30am-9:00pm
+                {/* Mon-Thurs | 10:30am-9:00pm */}
+                Call For Store Hours
               </div>
-              <div className="location-details hours">
+              {/* <div className="location-details hours">
                 Fri-Sat | 10:30am-10:00pm
-              </div>
+              </div> */}
+              {/* <div className="location-details hours">Closed Sunday</div> */}
               <div className="location-details reviews">
                 <a
                   href="https://www.yelp.com/biz/zao-asian-cafe-woods-cross"

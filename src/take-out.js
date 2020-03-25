@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import img from "./ZAO-TakeOutMenu.png";
+import img from "./onlinemenu.pdf";
 
 class Download extends Component {
   render() {

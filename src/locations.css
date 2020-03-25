@@ -6,7 +6,8 @@
   text-align: center;
   width: 100%;
   font-weight: 600;
-  margin-bottom: 90px;
+  margin-top: 42px;
+  margin-bottom: 42px;
 }
 
 .location-page-wrapper {
@@ -79,4 +80,39 @@
   border-top: 3px groove #707070;
   width: 80%;
   margin: 40px 0 40px 0;
+}
+
+.coronavirus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 4px #777777 solid;
+  border-radius: 10px; */
+  width: 90%;
+  height: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #8dc63f;
+}
+
+.coronavirus > div {
+  margin: 5px;
+}
+
+.coronavirus > p {
+  margin: 5px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 0.8em;
+}
+
+.quick-locations {
+  display: flex;
+  font-size: 0.8em;
+  justify-content: center;
+}
+
+.quick-locations > p {
+  margin: 0 5px 0 5px;
 }

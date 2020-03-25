@@ -1,7 +1,7 @@
 .order-page-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100vh;
+  height: 1000px;
   letter-spacing: 1px;
 }
 
@@ -40,6 +40,13 @@
   padding: 100px;
   box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
+.corona {
+}
+.corona img {
+  width: 100%;
+  height: auto;
+}
+
 .order-online-left {
   background-color: #8dc63f;
   color: #333333;

@@ -19,18 +19,18 @@ class Footer extends Component {
       <div>
         <div className="footer">
           <div className="contact-links">
-            <NavLink exact to="/careers" activeClassName="nav-link-active">
+            <NavLink exact to="/careers" activeClassName="">
               Careers|
             </NavLink>
-            <NavLink exact to="/contact" activeClassName="nav-link-active">
+            <NavLink exact to="/contact" activeClassName="">
               Contact|
             </NavLink>
-            <NavLink exact to="/donations" activeClassName="nav-link-active">
+            <NavLink exact to="/donations" activeClassName="">
               Donations
             </NavLink>
           </div>
           <div className="small-logo">
-            <NavLink exact to="/" activeClassName="nav-link-active">
+            <NavLink exact to="/" activeClassName="">
               <img
                 src={require("./Zao-Logo.png")}
                 alt={"logo"}

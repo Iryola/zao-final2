@@ -11,6 +11,13 @@ export default class Order extends Component {
             <h1>ORDERING FOR JUST A FEW?</h1>
             <h3>Skip the line if your order is 14 meals or less.</h3>
             <br />
+            {/* <div className="corona">
+              <img
+                src={require("./coronavirus.jpg")}
+                alt={"logo"}
+                className="coronapicture"
+              />
+            </div> */}
             <a href="https://zaoasiancafe.brinkpos.net/">
               <button className="order-online-left">ORDER ONLINE</button>
             </a>

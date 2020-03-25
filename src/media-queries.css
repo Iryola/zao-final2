@@ -49,6 +49,12 @@
     padding: 0;
     height: 45px;
   }
+  .order-zao-nav {
+    width: 230px;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+  }
 
   .logo-image-doordashbutton {
     width: 230px;
@@ -265,6 +271,30 @@
     width: auto;
     height: 100%;
   }
+  .coronavirus {
+    height: 100px;
+  }
+  .quick-locations {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 0.7em;
+    justify-content: center;
+  }
+  .corona {
+    height: auto;
+    width: 300px;
+  }
+  .corona img {
+    height: auto;
+    width: 300px;
+  }
+  .start-with-text {
+    margin: 20px 0 70px 0;
+    font-family: "Roboto";
+    color: #8dc63f;
+    font-size: 2.5em;
+    font-weight: 100;
+  }
 }
 
 @media (max-width: 400px) {
@@ -347,5 +377,22 @@
     background-attachment: scroll;
     background-position-x: 50%;
     background-position-y: 65%;
+  }
+  .coronavirus {
+    height: 100px;
+  }
+  .quick-locations {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 0.7em;
+    justify-content: center;
+  }
+  .corona {
+    height: auto;
+    width: 250px;
+  }
+  .corona img {
+    height: auto;
+    width: 100%;
   }
 }

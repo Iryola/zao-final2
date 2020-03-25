@@ -25,7 +25,7 @@ const NavigationContainer = props => {
   return (
     <div className="nav-bar">
       <div className="left-side">
-        <NavLink exact to="/" activeClassName="nav-link-active">
+        <NavLink exact to="/" activeClassName="">
           <img
             src={require("./Zao-Logo.png")}
             alt={"logo"}
@@ -36,10 +36,18 @@ const NavigationContainer = props => {
       <div />
       <div className="right-side">
         <div className="nav-items">
-          <NavLink exact to="/order" activeClassName="nav-link-active">
+          <NavLink exact to="/order" activeClassName="">
             <button className="order-online-nav nav-items">Order Online</button>
           </NavLink>
         </div>
+        {/* This was for a Home delivery service that Zao tried during the virus outbreak
+         <div className="nav-items">
+          <NavLink exact to="/locations" activeClassName="">
+            <button className="order-zao-nav nav-items">
+              Home Delivery <br /> Powered By Zao
+            </button>
+          </NavLink>
+        </div> */}
         <div className="nav-items">
           <a
             href="https://www.doordash.com/store/zao-asian-cafe-cottonwood-heights-130010/"
